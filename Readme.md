@@ -12,7 +12,8 @@ O projeto foi estruturado para suportar publicação contínua em formato Markdo
 
 ```
 google-cloud-ai-news-letter/
-├── novidades_google_ai_09-11-2026.md  # Edição de 09/11/2026 (02 a 09/nov/2026) - 19 itens (Mais recente)
+├── novidades_google_ai_21-11-2026.md  # Edição de 21/11/2026 (10 a 21/nov/2026) - 34 itens (Mais recente)
+├── novidades_google_ai_09-11-2026.md  # Edição de 09/11/2026 (02 a 09/nov/2026) - 19 itens
 ├── novidades_google_ai_02-11-2026.md  # Edição de 02/11/2026 (26/out a 02/nov/2026) - 13 itens
 ├── novidades_google_ai_26-10-2026.md  # Edição de 26/10/2026 (20 a 26/out/2026) - 12 itens
 ├── novidades_google_ai_19-10-2026.md  # Edição de 19/10/2026 (13 a 19/out/2026) - 11 itens
@@ -25,7 +26,7 @@ google-cloud-ai-news-letter/
 ├── novidades_google_ai_01-08-2026.md  # Edição de 01/08/2026 (21 a 31/jul/2026) - 16 itens
 ├── novidades_google_ai_20-07-2026.md  # Edição de 20/07/2026 (02 a 20/jul/2026) - 11 itens
 ├── novidades_google_ai_01-07-2026.md  # Edição de 01/07/2026 (16 a 30/jun/2026) - 22 itens
-├── wiki_preview.html                  # Visualizador interativo em layout Wiki com filtros por semana e categoria
+├── wiki_preview.html                  # Visualizador interativo em layout Wiki com filtros por semana e categoria (225 novidades)
 └── Readme.md                          # Este documento (arquitetura, funcionalidades e histórico de edições)
 ```
 
@@ -33,23 +34,23 @@ google-cloud-ai-news-letter/
 
 ## 📦 Acervo e Funcionalidades (`wiki_preview.html` & Edições `.md`)
 
-1. **Cobertura Temporal por Semana (13 Edições Catalogadas):**
-   - **Acervo Completo:** **191 lançamentos** documentados entre 01/07/2026 e 09/11/2026.
-   - **Filtro Rápido no Topo e Dropdown (`wiki_preview.html`):** Seleção direta por semana e busca combinada.
+1. **Cobertura Temporal por Semana (14 Edições Catalogadas):**
+   - **Acervo Completo:** **225 lançamentos** documentados entre 01/07/2026 e 21/11/2026.
+   - **Filtro Rápido no Topo e Dropdown (`wiki_preview.html`):** Seleção direta entre qualquer uma das 14 semanas (01/07/2026 até 21/11/2026) e busca combinada.
    - **Sidebar com Navegação e Contadores:** Menu lateral esquerdo com links âncora e contagem individual de novidades por edição.
 
-2. **Distribuição por Categorias Técnicas (191 lançamentos no acervo):**
-   - 🧠 **Modelos de IA (58 lançamentos):** Gemini Omni 1.2 Flash (GA), Gemini 4 Carbon (Frontier Cyber & Reasoning), Gemini 4 Argon (GA, Long Decodes de 1M tokens na Interactions API e regiões DRZ), Gemini Robotics ER 2 (Preview), Gemini 3.8 Flash/Flash-Lite TTS (GA), Gemini 3.5 Transcribe (GA), AlphaGenome (`alphagenome-004` gRPC/HTTP/2 streaming GA), Modelos Ajustados Gemini 3.x em Endpoints Globais (GA), Modelos OpenAI Nativos (`GPT-6 Astra`, `GPT-6.1 Sol`, `GPT-6 Luna`), Claude Models (Anthropic Managed GA, Opus/Sonnet/Haiku 5.5), xAI Grok 4.7 (GA), DeepSeek-V4.1-Flash e Gemini Nano Banana 2.1.
-   - 🛠️ **Plataforma de Agentes, Dados & Infra (56 lançamentos):** Interface dedicada do Memory Bank no Console, Throughput Provisionado para Modelos com SFT (GA), CodeMender v0.16.0 e v0.18.0, Benchmark Physical-Engineering's Last Exam (PLE), BigQuery AI (`AI.PARSE_DOCUMENT`, `AI.CHUNK_DOCUMENT`, `AI.AGG`, `AI.FORECAST` com TimesFM 3.0 e `.bigquery` no Pandas/BigFrames), Agentic Data Cloud (System of Action), Antigravity Plugin Marketplace, Computer Use (GA com HITL), Virtualização Aninhada no GKE Autopilot (`/dev/kvm`), K8s Bridge open source para GKE, Agent Development Kit (ADK), AlloyDB AI e Spanner Iceberg Catalog.
-   - 🛡️ **Segurança & Governança (17 lançamentos):** Controle de Disponibilidade de Modelos por Política de Localização de Recursos (`Resource Location Policies`), Ambient Quality Agent (AQuA), Antigravity Enterprise Gateway (GA), Model Armor, Content Safety Guardrails, VPC Service Controls, Data Residency e Criptografia CMEK.
-   - 📱 **Gemini Enterprise App & Conectores (47 lançamentos):** Conector Adobe (Public Preview), Conector Federado para Salesforce CRM (GA), Comutação de Equipes no Mobile App, Geração de Vídeo com Gemini Omni 1.2 Flash (GA), Gemini Notebook Enterprise Visual Refresh (GA), Parceria Estratégica ServiceNow Action Fabric, Workspace Connectors v2 (rMCP para Docs, Sheets e Slides), Conectividade VPC e Egress com IP Estático para Servidores MCP Customizados (GA), Data Cloud Connectors 1P (Preview), BigQuery Conversational Analytics (GA), Gemini for Customer Experience (CX Agent Studio) e Google Flow for Enterprise.
-   - ⚙️ **FinOps & Gestão de Modelos (13 lançamentos):** Créditos Pré-Pagos para Pay-as-you-go e Excedentes (GA), Cronograma de Transição de Licenças do Gemini Code Assist (até março/2027), Previsão Orçamentária e Hard Spend Caps no Gemini Enterprise App, Descontinuação do Gemini 3.6 Flash, Limites de Cota por Usuário Único (GA), Priority PayGo para Nano Banana 2.1 e Provisioned Throughput sem ramp limits.
+2. **Distribuição por Categorias Técnicas (225 lançamentos no acervo):**
+   - 🧠 **Modelos de IA (67 lançamentos):** Gemini 4 Neon e Neon for Cyber (GA), Gemini 4 Hydrogen (GA), Gemini 4 Carbon e Carbon for Cyber (GA), Gemini 4 Argon (GA, Long Decodes de 1M tokens e regiões DRZ), Gemini Omni 1.2 Flash (GA), Gemini Decisions API (`gemini-decision-1`), AlphaGenome (`alphagenome-003`/`004` sem allowlist GA e AlphaGenome 2 Single-Cell em Private Preview), Claude Fable 5.2 e Mythos 5.2, DeepSeek-V4.1-Flash-1017 (1M context), Gemini Robotics ER 2, Gemini 3.8 TTS (GA), Gemini 3.5 Transcribe (GA), Modelos OpenAI Nativos (`GPT-6 Astra/6.1 Sol/6 Luna`) e xAI Grok 4.7 (GA).
+   - 🛠️ **Plataforma de Agentes, Dados & Infra (69 lançamentos):** Gemini 4 Neon e Hydrogen no Google Antigravity Enterprise (GA), Governança unificada `/teamwork` e `/swarm` (GA), Deferred Tier para Autonomous Agent Scheduling e Interactions API (GA, 50% de desconto), Agent Gateway para GKE, Cloud Run e Cross-Cloud (Preview), Memory Bank como recurso Top-Level e UI dedicada no Console, Skills no Agent Registry (GA), Protocolo A2UI 1.0 Open-Source Generative UI (GA), AlloyDB Express (scale-to-zero em <2s), Cloud Storage Object Enrichments, Cloud Composer 3 Agentic & Managed Spark 4.0 (GA), BigQuery AI (`AI.PARSE_DOCUMENT`, `AI.CHUNK_DOCUMENT`, `AI.AGG`, `AI.FORECAST`) e Computer Use (GA).
+   - 🛡️ **Segurança & Governança (20 lançamentos):** End-User Safety Identifier Labels (`safety_identifier` em GA), Governança Semântica Cross-Project Hub-and-Spoke (`AGENT_MANAGEMENT`), Gemini 4 Hydrogen no CodeMender e CodeMender v0.22.0/v0.23.0 (GA), Controle de Disponibilidade de Modelos por Política de Localização de Recursos, Ambient Quality Agent (AQuA), Antigravity Enterprise Gateway (GA), Model Armor e VPC Service Controls.
+   - 📱 **Gemini Enterprise App & Conectores (55 lançamentos):** Gemini 4 Neon e Hydrogen no App Web/Mobile e Workflow Builder (GA), Criação de Aplicações Web Interativas no Canvas (GA), Google Labs Stitch (Live Mode & MCP), Conector Unificado Microsoft 365 USF (GA com +100 ações), 82 Novos Conectores Corporativos de Terceiros em GA (FactSet, Moody's, S&P Global, GitLab, PagerDuty, Stripe, etc.), Autenticação 3-Legged OAuth (3LO) com Agent Identity Auth Manager (GA), Conectores Data Cloud (BigQuery e AlloyDB), Conector Adobe, Conector Federado Salesforce CRM (GA) e Gemini Notebook Enterprise Visual Refresh (GA).
+   - ⚙️ **FinOps & Gestão de Modelos (14 lançamentos):** Limites de Quota por Usuário Único, Quota Pool Compartilhado e Multiplier Cap no Antigravity Enterprise (GA), Créditos Pré-Pagos para Pay-as-you-go e Excedentes (GA), Cronograma de Transição de Licenças do Gemini Code Assist (até março/2027), Previsão Orçamentária e Hard Spend Caps, Priority PayGo e Provisioned Throughput.
 
 3. **Busca Textual em Tempo Real:**
    - Pesquisa instantânea inteligente por nome de modelo, tecnologia, autoroute, tag de estágio (GA, Preview, Open Source) ou resumo de negócio.
 
 4. **Painel de Métricas e KPIs Globais:**
-   - **191 novidades** catalogadas no repositório, **82 em GA (Produção)**, **58 lançamentos de modelos de IA** e **13 edições semanais** publicadas.
+   - **225 novidades** catalogadas no repositório, **100 em GA (Produção)**, **67 lançamentos de modelos de IA** e **14 edições semanais** publicadas.
 
 ---
 
@@ -87,6 +88,13 @@ Em seguida, acesse no navegador: [http://localhost:8080/wiki_preview.html](http:
 
 ## 🔄 Histórico de Atualizações
 
+- **21/11/2026 (Edição 21/11/2026 - 34 novos lançamentos e Consolidação de 14 Semanas no `wiki_preview.html`):**
+  - Adição do arquivo `novidades_google_ai_21-11-2026.md` com 34 novidades e atualização completa do `wiki_preview.html` (consolidando as edições de 26/10, 02/11, 09/11 e 21/11, totalizando **225 novidades** em **14 semanas** e **100 itens em GA**):
+    - **Modelos de IA e Raciocínio (9 itens):** Gemini 4 Neon e Gemini 4 Neon for Cyber em GA (`gemini-4-neon`), Gemini 4 Hydrogen em GA (`gemini-4-hydrogen`, velocidade 2,5x e flat pricing), Gemini 4 Carbon e Carbon for Cyber em GA, Claude Fable 5.2 e Mythos 5.2, AlphaGenome sem allowlist no Model Garden (GA), AlphaGenome 2 (análise de DNA Single-Cell em Private Preview), DeepSeek-V4.1-Flash-1017 em Public Preview (MaaS, 1M context), Gemini 4 Hydrogen no AlphaEvolve (GA) e Gemini Decisions API (`gemini-decision-1`);
+    - **Infraestrutura e Plataforma de Agentes (10 itens):** Gemini 4 Neon e Hydrogen em GA no Google Antigravity Enterprise (e status de governança do Orchestrator), governança unificada dos comandos `/teamwork` e `/swarm` no Console (GA), Deferred Tier para Autonomous Agent Scheduling (GA) e na Interactions API (GA) com 50% de desconto, Agent Gateway para GKE (Preview), Agent Gateway para Cloud Run zero-code (Preview), Agent Gateway Cross-Cloud (Public Preview), Memory Bank como recurso Top-Level (Public Preview), Skills no Agent Registry (GA) e protocolo A2UI 1.0 Open-Source Generative UI & SDKs (GA);
+    - **Segurança e Governança (3 itens):** End-User Safety Identifier Labels (`safety_identifier` em GA), Governança Semântica Cross-Project Hub-and-Spoke (`AGENT_MANAGEMENT`) e Gemini 4 Hydrogen no CodeMender (Preview) + CodeMender v0.22.0 / v0.23.0 (GA);
+    - **Gemini Enterprise App, Conectores e FinOps (9 itens):** Gemini 4 Neon e Hydrogen no App, Workflow Builder e AI Developer Tools (GA), criação de aplicações web interativas no Canvas (GA), Google Labs Stitch (Modo Live e MCP), Conector Unificado Microsoft 365 (USF em GA), 82 novos conectores corporativos de terceiros em GA, autenticação 3-Legged OAuth (3LO) com Agent Identity Auth Manager (GA), conectores Data Cloud (BigQuery e AlloyDB em Preview), limites de quota por usuário único / Quota Pool / Multiplier Cap no Antigravity (GA) e histórico/restauração de versões de Skills;
+    - **Dados, Bancos de Dados e Infraestrutura para Agentes (3 itens):** AlloyDB Express em Public Preview (provisionamento PostgreSQL em <2s com scale-to-zero), Cloud Storage Object Enrichments em Preview e capacidades agênticas no Cloud Composer 3 + Managed Service for Apache Spark 4.0 em GA.
 - **09/11/2026 (Edição 09/11/2026 - 19 novos lançamentos):**
   - Adição do arquivo `novidades_google_ai_09-11-2026.md` com 19 novidades:
     - **Modelos de IA:** Gemini Omni 1.2 Flash em GA (`gemini-omni-1.2-flash`), Interactions API com decodificação estendida (Long Decodes de até 1.048.576 tokens) para Gemini 4 Argon (GA) e Tool Retrieval (EAP), AlphaGenome (`alphagenome-004`) com streaming unificado gRPC/HTTP/2 (GA) e implantação de modelos ajustados Gemini 3.x em endpoints globais via `models:copy` (GA);
